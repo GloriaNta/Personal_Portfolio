@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* ------ GENERAL ------ */
+
+main{
+    margin-left: 25px;
+}
+
+body{
+    max-width: 100vw;
+    background-color: #1E1E1E;
+    margin: 10px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+h1{
+    color: #FFD065;
+    margin-top: 20px;
+}
+
+
+/* NAV */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    padding: 35px 50px;
+    position: absolute;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+li{
+    display: inline; 
+    margin: 0 15px;
+}
+
+a{
+    color: #707070;
+    text-decoration: none; 
+    margin: 0px 15px;
+}
+
+.active{
+    color: #62B8FF;
+}
+
+a:hover{
+    color: #FFD065;
+}
+
+
+/* CARD */
+.card{
+    display: flex;
+    background-color:#676767 ;
+    margin-top: 90px;
+    width: 880px;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FORM */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 25px;
+    padding: 0%;
+}
+
+/* BUTTON */
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
